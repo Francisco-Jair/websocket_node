@@ -25,3 +25,6 @@ setInterval(() => {
 server.listen(3000, () => {
   console.log("Ouvindo na porta 3000");
 });
+
+// Problema com o CORS
+// https://stackoverflow.com/questions/44628363/socket-io-access-control-allow-origin-error/64805972
